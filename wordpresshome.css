@@ -1,0 +1,171 @@
+.trip {
+	max-height: 500em;
+	font-family: "open sans", sans-serif;
+	line-height: 22px;
+	padding: 15px 0 0 15px;
+	width: 700px;
+}
+
+.trippy {
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    display: block;
+    caption-side: bottom;  
+    font-family: "open sans", sans-serif;
+}   
+ 
+ article {
+ 	max-width: 65%;
+ 	margin: 0 auto;
+ }
+
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .04em;
+  margin: 0;
+  background-color: #FAFAFA;
+  color: black;
+}
+
+.float-clear {
+	clear: both;
+}
+
+/********************LARGE BACKGROUND IMAGE STYLING*******************/
+
+.main-image {
+  background-image: url("http://www.mrwallpaper.com/wallpapers/beautiful-landscape-2560x1600.jpg");
+  background-position: bottom center;
+}
+
+.main-image {
+  clear: both;
+  background-color: white;
+  color: #FAFAFA;
+  width: 100%;
+  height: 39.72em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.main-image p {
+  color: #fcc900;
+  text-shadow: 1px 1px 1px #7F7F7F;
+  font-size: 3em;
+  color: #FAFAFA;
+  text-align: right;
+  line-height: .92em;
+  padding: 17px 2% 0 0;
+}
+
+.main-image span {
+  font-size: .7em;
+  color: #FAFAFA;
+}
+
+/********** NAVIGATION STYLING **************/
+
+#header {
+  background: transparent;
+  width: 100%;
+}
+
+.head {
+  float: left;
+  padding: 6px 0 7px 15px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.7em;
+  margin: 0;
+}
+
+.floated-heading, .floated-byline, #article-header {
+	text-align: center;
+	margin: 0;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.floated-heading {
+	padding-top: 3em;
+	font-weight: 300;
+	font-size: 4.3em;
+}
+
+.floated-byline {
+	font-weight: 100;
+    font-size: 2em;
+    padding-top: .5em;
+    margin: .5em auto;
+    border-top : 3px solid white;
+    max-width: 30%;
+}
+
+#nav {
+  float: right;
+  list-style: none;
+  text-align: center;
+  padding: 34px 5px;
+  margin: auto 0;
+}
+
+#nav li {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .125em;
+  padding: 0 1em;
+  width: 45px;
+  text-align: left;
+  display: inline;
+}
+
+#nav li a {
+  padding: 2.29em 0;
+}
+
+#nav li a:hover {
+  color: #fcc900;
+}
+
+li a, h1 a {
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+}
+
+.copyright {
+ height: 60px;
+ width: 100%;
+ display: block;
+ background-color: #333333 ;
+ left: 0;
+ bottom: 0;
+}
+
+p.copyright-text {
+ margin: 0 auto 0 auto;
+ padding: 20px 0 0 0;
+ text-align: center;
+ font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ color: #404040 
+ ;
+}
+
+
+
+
+.footer {
+ margin-top: 30px;
+ height: 40px;
+ width: 100%;
+ display: block;
+ background-color: #404040 ;
+ left: 0;
+ bottom: 60px;
+}
