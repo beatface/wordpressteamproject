@@ -7,8 +7,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: .04em;
   margin: 0;
-  background-color: white;
-  color: #FAFAFA;
+  background-color: #FAFAFA;
+  color: black;
+}
+
+.float-clear {
+	clear: both;
 }
 
 /********************LARGE BACKGROUND IMAGE STYLING*******************/
@@ -21,6 +25,7 @@ body {
 .main-image {
   clear: both;
   background-color: white;
+  color: #FAFAFA;
   width: 100%;
   height: 39.72em;
   background-size: cover;
@@ -32,6 +37,7 @@ body {
   color: #fcc900;
   text-shadow: 1px 1px 1px #7F7F7F;
   font-size: 3em;
+  color: #FAFAFA;
   text-align: right;
   line-height: .92em;
   padding: 17px 2% 0 0;
@@ -39,12 +45,12 @@ body {
 
 .main-image span {
   font-size: .7em;
+  color: #FAFAFA;
 }
 
 /********** NAVIGATION STYLING **************/
 
 #header {
-  position: fixed;
   background: transparent;
   width: 100%;
 }
@@ -57,7 +63,7 @@ h1 {
   margin: 0;
 }
 
-.floated-heading, .floated-byline {
+.floated-heading, .floated-byline, #article-header {
 	text-align: center;
 	margin: 0;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -106,3 +112,28 @@ li a, h1 a {
   color: #fff;
   text-align: left;
 }
+
+/******************** ARTICLE STYLING *****************/
+
+#article-header {
+	font-weight: 200;
+	font-size: 2em;
+}
+
+article {
+	max-width: 65%;
+	color: black;
+	margin: 2em auto 0;
+}
+
+.avatar {
+	float: left;
+}
+
+
+
+
+
+
+
+
