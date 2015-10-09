@@ -79,7 +79,9 @@ h1 {
 	font-weight: 100;
 	font-size: 2em;
 	padding-top: .5em;
-	text-decoration: overline;
+	margin: .5em auto;
+	border-top : 3px solid white;
+	max-width: 30%;
 }
 
 #nav {
@@ -118,20 +120,26 @@ li a, h1 a {
 #article-header {
 	font-weight: 200;
 	font-size: 2em;
+	margin-bottom: 30px;
+	margin-top: 1em;
 }
 
 article {
 	max-width: 65%;
 	color: black;
-	margin: 2em auto 0;
+	margin: 1em auto 0;
 }
 
 .avatar {
 	float: left;
+	margin-right: 25px;
 }
 
-
-
+.bios {
+	font-weight: 200;
+	font-size: 1.5em;
+	margin-top: 13px;
+}
 
 
 
