@@ -1,0 +1,15 @@
+.trip {
+	width: 700px;
+	max-height: 500em;
+	font-family: "open sans", sans-serif;
+	line-height: 22px;
+	float: left;
+	padding: 15px 0 0 15px;
+
+}
+
+.trippy {
+	float: left;
+
+}
+
