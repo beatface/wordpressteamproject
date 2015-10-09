@@ -4,54 +4,41 @@
   <meta charset="utf-8">
   <title>Contact Page</title>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="contact-style.css">
 
-<div class="main-image">
-     <header id="header">
-       <h1>placeholder</h1>
-       <nav class="navigation"
-         <ul id="nav">
-           <li><a href="#">HOME</a></li>
-           <li><a href="music.html">ABOUT</a></li>
-           <li><a href="other.html">CONTACT</a></li>
-         </ul>
-       </nav>
-     </header>
-   </div>
+<div class="container">
+<h3 id="article-header" class="comment-reply-title">Leave a Reply</h3>
 
-<!-- This is where the contact fiels go -->
-
- <h3 id="reply-title" class="comment-reply-title">Leave a Reply</h3>
- 
- <form method="post" id="comment form" class="form-horizontal" role="form">
-   <div class="alert">Your email address will not be published. Required fields are marked <span class="required">*</span>
-   </div>
-  
-   <div class="form-group">
-    <div class="comment-form-author">
-      <input class="form-control" id="author" placeholder="Name" name="author" type="text" value aria required="true">
-    </div>
-    <div class="comment-form-email">
-      <input id="email" class="form-control" name="email" placeholder="Email" type="text" value aria-required="true">
-     </div>
-   </div>  
-
-  <div class="form-group">
-    <div class="comment-form-url">
-      <input class="form-control" placeholder="Website" id="url" name="url" type="text" value>
-    </div>
+<form method="post" id="comment-form" class="form-horizontal" role="form">
+  <div class="alert">Your email address will not be published. Required fields are marked <span class="required">*</span>
   </div>
+
+<div class="form-group">
+  <div class="comment-form-author">
+    <input class="form-control" id="author" placeholder="Name" name="author" type="text" value aria required="true">
+  </div>
+ <div class="comment-form-email">
+   <input id="email" class="form-control" name="email" placeholder="Email" type="text" value aria-required="true">
+ </div>
+</div>  
+
+<div class="form-group">
+  <div class="comment-form-url">
+    <input class="form-control" placeholder="Website" id="url" name="url" type="text" value>
+  </div>
+</div>
 
   <div class="form-group comment-form-comment">
-    <div class="col-sm-12">
-      <textarea class="form-control" id="comment" name="comment" placeholder="Comment" rows="8" aria-required="true"></textarea>
-    </div>
+  <div class="col-sm-12">
+    <textarea class="form-control" id="comment" name="comment" placeholder="Comment" rows="8" aria-required="true"></textarea>
   </div>
-
-  <div class="form-submit">
-    <input class="btn btn-danger btn-lg" name="submit" type="submit" id="submit" value="Post Comment">
+</div>
+<div class="form-submit">
+  <input class="btn btn-danger btn-lg" name="submit" type="submit" id="submit" value="Post Comment">
+  <input type="hidden" name="comment_parent" id="comment_parent" value="0">
   </div>
 </form>
+</div>
 
 </head>
 </html>
