@@ -8,23 +8,24 @@ body {
   letter-spacing: .04em;
   margin: 0;
   background-color: white;
+  color: #FAFAFA;
 }
 
 /********************LARGE BACKGROUND IMAGE STYLING*******************/
 
 .main-image {
   background-image: url("http://www.mrwallpaper.com/wallpapers/beautiful-landscape-2560x1600.jpg");
-  background-position: center center;
+  background-position: bottom center;
 }
 
 .main-image {
   clear: both;
-  background-color: #fcc900;
+  background-color: white;
   width: 100%;
   height: 39.72em;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Pacifico', sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 .main-image p {
@@ -42,10 +43,6 @@ body {
 
 /********** NAVIGATION STYLING **************/
 
-#header h1 a {
-  color: #fff;
-}
-
 #header {
   position: fixed;
   background: transparent;
@@ -55,9 +52,28 @@ body {
 h1 {
   float: left;
   padding: 6px 0 7px 15px;
-  font-family: 'Pacifico', sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 2.7em;
   margin: 0;
+}
+
+.floated-heading, .floated-byline {
+	text-align: center;
+	margin: 0;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.floated-heading {
+	padding-top: 3em;
+	font-weight: 300;
+	font-size: 4.3em;
+}
+
+.floated-byline {
+	font-weight: 100;
+	font-size: 2em;
+	padding-top: .5em;
+	text-decoration: overline;
 }
 
 #nav {
@@ -69,7 +85,7 @@ h1 {
 }
 
 #nav li {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: .125em;
   padding: 0 1em;
   width: 45px;
